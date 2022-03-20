@@ -178,7 +178,7 @@ section + img {
     color: white;
 }
 
-body > h2, .accom {
+.contactsection > h2, body > h2, .accom {
     margin: 5% auto 2% auto;
     text-align: center;
     font-size: 1.8rem;
@@ -228,6 +228,7 @@ body > h2, .accom {
 .endCottage > img {
     display: flex;
     justify-content: center;
+    box-shadow: 4px 2px 2px rgba(0, 0, 0, 0.397);
 }
 
 .floatingbox2 {
@@ -238,3 +239,47 @@ body > h2, .accom {
     text-align: center;
 }
 
+.contactsection {
+    background-color:rgba(224, 224, 224, 0.637);
+}
+
+.contactsection > h2 {
+    font-size: 2.25rem;
+    padding-top: 1.5%;
+}
+.contactsection > div {
+    padding-bottom: 3%;
+    font-size: 1.35rem;
+    font-weight: 200;
+}
+
+.largercontainer {
+    width: 100%;
+}
+
+button {
+    position: fixed;
+    bottom: 2%;
+    right: 0px;
+}
+
+button > a {
+    text-decoration: none;
+    color: black;
+}
+
+footer.flexboxy {
+    flex-flow: column;
+    padding: 1% 0%;
+    background: rgba(35, 36, 37, 0.808);
+    color: white;
+   
+}
+
+address {
+    padding-bottom: 1%;
+}
+address > a {
+    font-size: 1.2rem;
+    color: white;
+}
